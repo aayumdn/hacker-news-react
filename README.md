@@ -15,7 +15,7 @@ To start the app, run `npm install` and then `npm start` to start the app on loc
 The UI is made up using technologies: React, JavaScript, Sass, JSX, HTML, React-testing-library (Jest). It consists of five components which are rendered by: `App.js`, `Items.js` and `SortedItems.js`.
 
 ### Back-End
-Some of the data from API was not in a usable format so some logic has been applied to format the data and send it to components to be rendered. This includes setting props for pagination so that user can be redirected to next and previous pages & changing of timestamp to a user friendly string. This is a part of `util.js`.
+Some of the data from API was not in a usable format so some logic has been applied to format the data and send it to components to be rendered. This includes setting props for pagination so that user can be redirected to next and previous pages & changing of timestamp to a user friendly string. This is a part of `util.js`. Along with this, the logic for sorting the stories with respect to age (latest/oldest), comments (Least/Most) and points(Least/Most) is also a part of this file. 
 
 ### Improvements
 It seems that there is a possibility to further enhance the Performance, which could help in reducing the response time.
