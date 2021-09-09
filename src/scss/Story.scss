@@ -1,0 +1,56 @@
+.Story-Card {
+    display: flex;
+    border-color: #d1d1d1;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 2px 3px 4px #e1e1e1;
+}
+
+.Right-Container{
+    max-width: 70vw;
+}
+
+.Skeleton-Container{
+    width: 100vw;
+    max-width: 1000px;
+}
+
+.Title-Container{
+    display: flex;
+}
+
+.Title{
+    color: black;
+    text-decoration-line: none;
+}
+
+.Title-URL{
+    font-size: 14px;
+    color: #6f6f6f;
+    
+    @media only screen and (max-width: 500px) {
+        display: none;
+    }
+}
+
+.Detail-Container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Detail-Subcontainer{
+    display: flex;
+    align-items: center;
+}
+
+.Detail-Text{
+    color: #6f6f6f;
+    font-size: 14px;
+}
+
+.Detail-Icon{
+    color: #6f6f6f;
+}
