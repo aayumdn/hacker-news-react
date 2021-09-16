@@ -30,7 +30,7 @@ const Story = ({ id }) => {
                     <Skeleton height={75} />
                 </div>
             ) : (
-                <PartialStory story={story} />
+                <PartialStory story={story} key={story.id}/>
             )}
         </>
     );
