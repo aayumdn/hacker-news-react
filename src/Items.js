@@ -50,7 +50,7 @@ const Items = (props) => {
             >
                 {isLoading ? (
                     <div className="Skeleton-Container" data-testid="skeleton-holder">
-                        <Skeleton count={15} height={75} />
+                        <Skeleton count={20} height={75} />
                     </div>
                 ) : (
                     <div data-testid="story-holder">
